@@ -8,6 +8,19 @@ A custom-trained **YOLOv8** object detection model for detecting vehicles (cars,
 
 This project demonstrates how to train a state-of-the-art YOLOv8 model on a custom vehicle detection dataset using **Ultralytics YOLOv8** and **Roboflow**.
 
+---
+
+## 📸 Results
+
+**🔥 Final Detection Output:**
+
+![Output Video Thumbnail](Screenshot%202026-05-19%20080118.png)
+
+▶️ **[Watch Output Video](cars%20(3).avi)**
+
+
+---
+
 ### Features
 - Custom vehicle detection (Cars, Trucks, etc.)
 - Trained on Roboflow dataset
@@ -94,11 +107,14 @@ The output video will be saved in runs/detect/predict/ folder.
 Vehicle-Object-Detection/
 ├── notebooks/
 │   └── train-yolov8-object-detection-on-custom-dataset.ipynb
-├── data/
-├── runs/                     # Training results & predictions
-├── results/                  # Demo videos & images
 ├── README.md
-└── requirements.txt
+├── Screenshot 2026-05-19 080118.png
+├── cars (3).avi
+└── runs/                      # Created after training
+└── detect/
+└── train/
+└── weights/
+└── best.pt
 ```
 
 ## 🎯 How to Use the Trained Model
